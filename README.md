@@ -1,32 +1,31 @@
 # Browser Tic-Tac-Toe
 
-A browser-based two-player Tic-Tac-Toe game built using HTML, CSS, and JavaScript.
+A classic two-player Tic-Tac-Toe game built with HTML, CSS, and JavaScript.
 
-## Features
+## 🚀 Live Demo
 
-- Two-player turn-based gameplay
-- Win detection
-- Draw detection
-- Score tracking for both players
-- Round counter
-- Game reset functionality
-- Game over condition when a player reaches 5 points
+You can play the game online here:  
+**[https://yanough.github.io/browser-tic-tac-toe/](https://yanough.github.io/browser-tic-tac-toe/)**
 
-## Technologies Used
+## ✨ Features
 
-- HTML
-- CSS
-- JavaScript (DOM manipulation)
+- **Interactive Gameplay:** Simple and clean 3x3 grid.
+- **Score Tracking:** Keeps track of Player 1 (X) and Player 2 (O) wins.
+- **Round Management:** Displays the current round number.
+- **Win & Draw Detection:** Automatically detects winners and highlights the winning cells.
+- **Game Reset:** Features a "Start a new game" button to reset the board.
+- **Game Over Logic:** Resets the score once a player reaches 5 points.
 
-## How to Run
+## 🛠️ Technologies Used
 
-1. Download or clone the repository.
-2. Open `main.html` in your browser.
+- **HTML5:** Semantic structure.
+- **CSS3:** Styling and layout.
+- **JavaScript (ES6):** Game logic and DOM manipulation.
+
+## 📖 Background
+
+This project was developed as a university exercise to practice JavaScript fundamentals, event handling, and managing game state in the browser.
 
 ## Author
 
 Diba Yanough
-
-## Background
-
-This project was developed as a university exercise to practice JavaScript DOM manipulation and basic game logic in a web environment.

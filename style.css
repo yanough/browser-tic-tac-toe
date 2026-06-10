@@ -1,0 +1,149 @@
+body{
+    background-color: blanchedalmond;
+    display: flex;
+    
+}
+
+#resultSide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 65vw;
+    background-color: burlywood;
+}
+
+
+#result{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height: 355px;
+    width: 320px;
+    border: 2px solid;
+    background-color: rgb(42, 116, 165);
+}
+
+.container {
+    width: 300px;
+    text-align: center;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    width: 100%;
+    background-color: black;
+    margin: 10px 0;
+}
+
+
+#player1{
+    margin-top: 38px;
+    height: 30px;
+    width: 150px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 21px;
+    border-radius: 10px;
+    border: 2px solid;
+    background-color: rgba(0, 204, 255, 0.596);
+    font-size: 26px;
+}
+
+#player2{
+    margin-top: -0px;
+    height: 30px;
+    width: 150px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 21px;
+    border-radius: 10px;
+    border: 2px solid;
+    background-color: rgba(0, 204, 255, 0.596);
+    font-size: 26px;
+}
+
+#round{
+    height: 30px;
+    width: 150px;
+    padding-left: 70px;
+    /* border-radius: 10px;
+    border: 2px solid; */
+    /* background-color: rgba(0, 204, 255, 0.596); */
+    font-size: 22px;
+    font-weight: 600;
+    color: antiquewhite;
+}
+
+.text{
+    margin-top: -8px;
+    padding-top: -100px;
+    height: 30px;
+    width: 150px;
+    padding-left: 13px;
+    /* border-radius: 10px;
+    border: 2px solid; */
+    /* background-color: rgba(0, 204, 255, 0.596); */
+    font-size: 22px ;
+    font-weight: bold;
+    color:  rgba(112, 198, 219, 0.969);
+
+}
+
+#situation{
+    text-align: center; 
+    padding: 2px;
+    margin-top: 27px;
+    height: 28px;
+    width: 78px;
+    border-radius: 10px;
+    border: 2px solid;
+    background-color: rgba(0, 204, 255, 0.596);
+    font-size: 20px;
+}
+
+#resetbtn{
+    border-radius: 10px;
+    margin-top: 1px;
+    padding: 10px;
+    font-size: 14px;
+    background-color: antiquewhite;
+    cursor: grab;
+    
+}
+
+
+#gameSide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    /* background-color: cornflowerblue; */
+}
+
+#gameBoard{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    padding: 15px;
+    gap: px;
+    height: 520px;
+    width: 520px;
+    background-color: rgba(0, 204, 255, 0.596);
+}
+
+.cell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    height: 170px;
+    width: 170px;
+    background-color: burlywood;
+    border: 1px solid;
+}
+
